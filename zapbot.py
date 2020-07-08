@@ -19,7 +19,7 @@ class WhatsappBot:
         time.sleep(3)
         grupo.click()
         
-        chatbox = self.driver.find_element_by_name('_3uMse')
+        chatbox = self.driver.find_element_by_class_name('_3uMse')
         time.sleep(3)
         chatbox.click()
         
